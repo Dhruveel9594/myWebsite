@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>Personal Website</title>
+  </head>
+  <body>
+    
+    
+    <div class="main-nav">
+        <ul class="main-nav-list ">
+            <li id="site-title"><a href="index.html">Home</a></li>
+            <li><a href="#div2">About me</a></li>
+            <li><a href="#div3">Skills</a></li>
+            <li><a href="#div4">Contact me</a></li>
+        </ul>
+    </div>
+
+    <button class="open-btn">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <div class="wrap wrap-black ">
+        <div class="wrap wrap-white ">
+            <button class="wrap-btn close-btn">
+                <i class="fa-solid fa-times"></i>
+            </button> 
+
+
+            <ul class="list">
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#div2">About Me</a></li>
+                <li><a href="#div3">Skills</a></li>
+                <li><a href="#div4">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="div1" class="my-divs">
+      <div class="img-div">
+        <div>
+          <img id="myimage" src="img/me.jpg" alt="" />
+        </div>
+      </div>
+      <h1>Dhruveel Devaliya</h1>
+      <i>Software Developer</i>
+      <p>I love to code and solve the problem</p>
+
+      <a href="#div2" id="btn1">Go to the next Section</a>
+      <div id="arrow1" class="arrow-down"></div>
+    </div>
+
+    <div id="div2" class="my-divs">
+      <div>
+        <img src="img/settings.png" alt="" />
+        <h1>What I am all about</h1>
+        <p id="myIntro">
+          I am Dhruveel Devaliya, I am passionate about creating innovative and
+          efficient solutions that solve real-world problems. I thrive in
+          environments where I can collaborate with others to design, build, and
+          optimize software applications that meet the needs of users. With a
+          strong foundation in programming languages, algorithms, and software
+          development principles, I constantly strive to expand my knowledge and
+          stay up-to-date with emerging technologies. My attention to detail,
+          problem-solving skills, and ability to adapt to new challenges enable
+          me to deliver high-quality, scalable, and maintainable code. I am
+          committed to writing clean, efficient code while ensuring that the end
+          user’s experience remains intuitive and seamless.
+        </p>
+      </div>
+
+      <a href="#div3" id="btn2">Go to the next Section</a>
+      <div id="arrow2" class="arrow-down"></div>
+    </div>
+
+    <div id="div3" class="my-divs">
+      <div id="skill-title">
+        <h1>My Skill Set</h1>
+      </div>
+
+      <div class="skill-wrap">
+        <div class="skills">
+          <img src="img/html.png" alt="" />
+          <h3>HTML</h3>
+          <p>
+            HTML (HyperText Markup Language) is the standard language used to
+            create and structure web pages. It defines elements like headings,
+            paragraphs, links, and images, forming the foundation of every
+            website.
+          </p>
+        </div>
+
+        <div class="skills">
+          <img src="img/css.png" alt="" />
+          <h3>CSS</h3>
+          <p>
+            CSS (Cascading Style Sheets) is used to style and design web pages,
+            controlling the layout, colors, fonts, and spacing of HTML elements.
+            It enhances the visual appeal and user experience of websites.
+          </p>
+        </div>
+
+        <div class="skills">
+          <img src="img/js.png" alt="" />
+          <h3>JAVASRIPT</h3>
+          <p>
+            JavaScript is a programming language that enables interactive
+            features on websites, such as dynamic content updates, form
+            validation, and animations. It enhances user experience by making
+            web pages more responsive and engaging.
+          </p>
+        </div>
+      </div>
+
+      <a href="#div4" id="btn3">Go to the next Section</a>
+      <div id="arrow3" class="arrow-down"></div>
+    </div>
+
+    <div id="div4" class="my-divs">
+      <div class="overlap">
+        <div>
+          <h1>Contact me</h1>
+          <p>Send me a message and I'll get back to you as soon as I can.</p>
+          <form action="#">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="text" id="email" placeholder="Your email" required />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Type Your message here..."
+              required
+            ></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <a href="#div1" id="btn4">Go to the Next Section</a>
+        <div id="arrow4" class="arrow-up"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
